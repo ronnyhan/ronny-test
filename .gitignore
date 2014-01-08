@@ -1,0 +1,13 @@
+*.class
+*.log
+*.swp
+*.lock
+*.done
+*~
+.classpath
+.project
+.settings/
+classes/
+test-classes/
+/target/
+logs/
