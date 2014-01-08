@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.zhimatech</groupId>
-	<artifactId>testproject</artifactId>
+	<artifactId>ronny-test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
 		<dependency>
@@ -12,17 +12,17 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>testproject</finalName>
+		<finalName>ronny-test</finalName>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<resources>
-			<!-- 控制资源文件的拷贝 -->
+			<!-- 控制资源文件的拷�?-->
 			<resource>
 				<directory>src/main/resources</directory>
 				<targetPath>${project.build.directory}/resources</targetPath>
 			</resource>
 		</resources>
 		<plugins>
-			<!-- 设置源文件编码方式 -->
+			<!-- 设置源文件编码方�?-->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -65,7 +65,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			<!-- 解决资源文件的编码问题 -->
+			<!-- 解决资源文件的编码问�?-->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
